@@ -8,12 +8,12 @@ import { ClerkProvider } from "@clerk/nextjs";
 const IBMPlex = IBM_Plex_Sans({ 
   subsets: ["latin"],
   weight: ['400', '500', '600', '700'],
+  variable: '--font-ibm-plex'
  });
 
 export const metadata: Metadata = {
   title: "Audify",
   description: "AI-powered audio generator",
-  variable: '--font-ibm-plex'
 };
 
 export default function RootLayout({
